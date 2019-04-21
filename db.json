@@ -1,0 +1,18 @@
+{
+  "events": [
+    {
+      "id": 6746645,
+      "category": "sustainability",
+      "organizer": {
+        "id": "1",
+        "name": "Daniella Bosc"
+      },
+      "title": "sustainability 1",
+      "description": "this description",
+      "location": "this location",
+      "date": "2019-04-02T21:47:00.000Z",
+      "time": "18:00",
+      "attendees": []
+    }
+  ]
+}
