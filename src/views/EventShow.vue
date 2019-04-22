@@ -15,9 +15,9 @@
     <p>{{ event.description }}</p>
     <h2>
       Attendees
-      <span class="badge -fill-gradient">{{
-        event.attendees ? event.attendees.length : 0
-      }}</span>
+      <span class="badge -fill-gradient">
+        {{ event.attendees ? event.attendees.length : 0 }}
+      </span>
     </h2>
     <ul class="list-group">
       <li
@@ -33,7 +33,7 @@
 
 <script>
 import NavBar from '@/components/NavBar.vue'
-import EventService from '@/services/EventService.js'
+import { mapState } from 'vuex'
 
 export default {
   name: 'eventshow',
@@ -41,18 +41,10 @@ export default {
   components: {
     NavBar
   },
-  data() {
-    return {
-      event: {}
-    }
-  },
   created() {
-    EventService.getEvent(this.id)
-      .then(res => {
-        this.event = res.data
-      })
-      .catch(err => console.log(err))
-  }
+    this.$store.dispatch('fetchEvent', this.id)
+  },
+  computed: mapState(['event'])
 }
 </script>
 

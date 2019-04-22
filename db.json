@@ -1,7 +1,6 @@
 {
-  "events": [
-    {
-      "id": 6746645,
+  "events": [{
+      "id": 617346645,
       "category": "sustainability",
       "organizer": {
         "id": "1",
@@ -11,6 +10,328 @@
       "description": "this description",
       "location": "this location",
       "date": "2019-04-02T21:47:00.000Z",
+      "time": "18:00",
+      "attendees": []
+    },
+    {
+      "id": 266562313,
+      "category": "animal welfare",
+      "organizer": {
+        "id": "1",
+        "name": "Daniella Bosc"
+      },
+      "title": "Animal Welfare Event",
+      "description": "This is all about animals",
+      "location": "Here in Las Vegas",
+      "date": "2019-04-04T00:00:00.000Z",
+      "time": "18:00",
+      "attendees": []
+    },
+    {
+      "id": 671346645,
+      "category": "sustainability",
+      "organizer": {
+        "id": "1",
+        "name": "Daniella Bosc"
+      },
+      "title": "sustainability 2",
+      "description": "this description",
+      "location": "this location",
+      "date": "2019-04-02T21:47:00.000Z",
+      "time": "18:00",
+      "attendees": []
+    },
+    {
+      "id": 266156323,
+      "category": "animal welfare",
+      "organizer": {
+        "id": "1",
+        "name": "Daniella Bosc"
+      },
+      "title": "Animal Welfare Event",
+      "description": "This is all about animals",
+      "location": "Here in Las Vegas",
+      "date": "2019-04-04T00:00:00.000Z",
+      "time": "18:00",
+      "attendees": []
+    },
+    {
+      "id": 673466145,
+      "category": "sustainability",
+      "organizer": {
+        "id": "1",
+        "name": "Daniella Bosc"
+      },
+      "title": "sustainability 3",
+      "description": "this description",
+      "location": "this location",
+      "date": "2019-04-02T21:47:00.000Z",
+      "time": "18:00",
+      "attendees": []
+    },
+    {
+      "id": 263615623,
+      "category": "animal welfare",
+      "organizer": {
+        "id": "1",
+        "name": "Daniella Bosc"
+      },
+      "title": "Animal Welfare Event",
+      "description": "This is all about animals",
+      "location": "Here in Las Vegas",
+      "date": "2019-04-04T00:00:00.000Z",
+      "time": "18:00",
+      "attendees": []
+    },
+    {
+      "id": 674366145,
+      "category": "sustainability",
+      "organizer": {
+        "id": "1",
+        "name": "Daniella Bosc"
+      },
+      "title": "sustainability 4",
+      "description": "this description",
+      "location": "this location",
+      "date": "2019-04-02T21:47:00.000Z",
+      "time": "18:00",
+      "attendees": []
+    },
+    {
+      "id": 266156323,
+      "category": "animal welfare",
+      "organizer": {
+        "id": "1",
+        "name": "Daniella Bosc"
+      },
+      "title": "Animal Welfare Event",
+      "description": "This is all about animals",
+      "location": "Here in Las Vegas",
+      "date": "2019-04-04T00:00:00.000Z",
+      "time": "18:00",
+      "attendees": []
+    },
+    {
+      "id": 673461645,
+      "category": "sustainability",
+      "organizer": {
+        "id": "1",
+        "name": "Daniella Bosc"
+      },
+      "title": "sustainability 5",
+      "description": "this description",
+      "location": "this location",
+      "date": "2019-04-02T21:47:00.000Z",
+      "time": "18:00",
+      "attendees": []
+    },
+    {
+      "id": 263656123,
+      "category": "animal welfare",
+      "organizer": {
+        "id": "1",
+        "name": "Daniella Bosc"
+      },
+      "title": "Animal Welfare Event",
+      "description": "This is all about animals",
+      "location": "Here in Las Vegas",
+      "date": "2019-04-04T00:00:00.000Z",
+      "time": "18:00",
+      "attendees": []
+    },
+    {
+      "id": 671466453,
+      "category": "sustainability",
+      "organizer": {
+        "id": "1",
+        "name": "Daniella Bosc"
+      },
+      "title": "sustainability 6",
+      "description": "this description",
+      "location": "this location",
+      "date": "2019-04-02T21:47:00.000Z",
+      "time": "18:00",
+      "attendees": []
+    },
+    {
+      "id": 266356213,
+      "category": "animal welfare",
+      "organizer": {
+        "id": "1",
+        "name": "Daniella Bosc"
+      },
+      "title": "Animal Welfare Event",
+      "description": "This is all about animals",
+      "location": "Here in Las Vegas",
+      "date": "2019-04-04T00:00:00.000Z",
+      "time": "18:00",
+      "attendees": []
+    },
+    {
+      "id": 674136645,
+      "category": "sustainability",
+      "organizer": {
+        "id": "1",
+        "name": "Daniella Bosc"
+      },
+      "title": "sustainability 7",
+      "description": "this description",
+      "location": "this location",
+      "date": "2019-04-02T21:47:00.000Z",
+      "time": "18:00",
+      "attendees": []
+    },
+    {
+      "id": 266356231,
+      "category": "animal welfare",
+      "organizer": {
+        "id": "1",
+        "name": "Daniella Bosc"
+      },
+      "title": "Animal Welfare Event",
+      "description": "This is all about animals",
+      "location": "Here in Las Vegas",
+      "date": "2019-04-04T00:00:00.000Z",
+      "time": "18:00",
+      "attendees": []
+    },
+    {
+      "id": 674616345,
+      "category": "sustainability",
+      "organizer": {
+        "id": "1",
+        "name": "Daniella Bosc"
+      },
+      "title": "sustainability 8",
+      "description": "this description",
+      "location": "this location",
+      "date": "2019-04-02T21:47:00.000Z",
+      "time": "18:00",
+      "attendees": []
+    },
+    {
+      "id": 216365623,
+      "category": "animal welfare",
+      "organizer": {
+        "id": "1",
+        "name": "Daniella Bosc"
+      },
+      "title": "Animal Welfare Event",
+      "description": "This is all about animals",
+      "location": "Here in Las Vegas",
+      "date": "2019-04-04T00:00:00.000Z",
+      "time": "18:00",
+      "attendees": []
+    },
+    {
+      "id": 674631645,
+      "category": "sustainability",
+      "organizer": {
+        "id": "1",
+        "name": "Daniella Bosc"
+      },
+      "title": "sustainability 9",
+      "description": "this description",
+      "location": "this location",
+      "date": "2019-04-02T21:47:00.000Z",
+      "time": "18:00",
+      "attendees": []
+    },
+    {
+      "id": 26656323,
+      "category": "animal welfare",
+      "organizer": {
+        "id": "1",
+        "name": "Daniella Bosc"
+      },
+      "title": "Animal Welfare Event",
+      "description": "This is all about animals",
+      "location": "Here in Las Vegas",
+      "date": "2019-04-04T00:00:00.000Z",
+      "time": "18:00",
+      "attendees": []
+    },
+    {
+      "id": 673466145,
+      "category": "sustainability",
+      "organizer": {
+        "id": "1",
+        "name": "Daniella Bosc"
+      },
+      "title": "sustainability 10",
+      "description": "this description",
+      "location": "this location",
+      "date": "2019-04-02T21:47:00.000Z",
+      "time": "18:00",
+      "attendees": []
+    },
+    {
+      "id": 266315623,
+      "category": "animal welfare",
+      "organizer": {
+        "id": "1",
+        "name": "Daniella Bosc"
+      },
+      "title": "Animal Welfare Event",
+      "description": "This is all about animals",
+      "location": "Here in Las Vegas",
+      "date": "2019-04-04T00:00:00.000Z",
+      "time": "18:00",
+      "attendees": []
+    },
+    {
+      "id": 671466435,
+      "category": "sustainability",
+      "organizer": {
+        "id": "1",
+        "name": "Daniella Bosc"
+      },
+      "title": "sustainability 11",
+      "description": "this description",
+      "location": "this location",
+      "date": "2019-04-02T21:47:00.000Z",
+      "time": "18:00",
+      "attendees": []
+    },
+    {
+      "id": 236651623,
+      "category": "animal welfare",
+      "organizer": {
+        "id": "1",
+        "name": "Daniella Bosc"
+      },
+      "title": "Animal Welfare Event",
+      "description": "This is all about animals",
+      "location": "Here in Las Vegas",
+      "date": "2019-04-04T00:00:00.000Z",
+      "time": "18:00",
+      "attendees": []
+    },
+    {
+      "id": 674664153,
+      "category": "sustainability",
+      "organizer": {
+        "id": "1",
+        "name": "Daniella Bosc"
+      },
+      "title": "sustainability 12",
+      "description": "this description",
+      "location": "this location",
+      "date": "2019-04-02T21:47:00.000Z",
+      "time": "18:00",
+      "attendees": []
+    },
+    {
+      "id": 216635623,
+      "category": "animal welfare",
+      "organizer": {
+        "id": "1",
+        "name": "Daniella Bosc"
+      },
+      "title": "Animal Welfare Event",
+      "description": "This is all about animals",
+      "location": "Here in Las Vegas",
+      "date": "2019-04-04T00:00:00.000Z",
       "time": "18:00",
       "attendees": []
     }
