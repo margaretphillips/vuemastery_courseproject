@@ -1,6 +1,5 @@
 <template>
   <div>
-    <NavBar />
     <div class="event-header">
       <span class="eyebrow">@{{ event.time }} on {{ event.date }}</span>
       <h1 class="title">{{ event.title }}</h1>
@@ -15,9 +14,9 @@
     <p>{{ event.description }}</p>
     <h2>
       Attendees
-      <span class="badge -fill-gradient">
-        {{ event.attendees ? event.attendees.length : 0 }}
-      </span>
+      <span class="badge -fill-gradient">{{
+        event.attendees ? event.attendees.length : 0
+      }}</span>
     </h2>
     <ul class="list-group">
       <li
@@ -32,19 +31,18 @@
 </template>
 
 <script>
-import NavBar from '@/components/NavBar.vue'
-import { mapState } from 'vuex'
+import { mapState, mapActions } from 'vuex'
 
 export default {
   name: 'eventshow',
   props: ['id'],
-  components: {
-    NavBar
-  },
   created() {
-    this.$store.dispatch('fetchEvent', this.id)
+    this.fetchEvent(this.id)
   },
-  computed: mapState(['event'])
+  computed: mapState({
+    event: state => state.event.event
+  }),
+  methods: mapActions('event', ['fetchEvent'])
 }
 </script>
 

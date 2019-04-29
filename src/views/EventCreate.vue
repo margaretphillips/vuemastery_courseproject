@@ -1,6 +1,5 @@
 <template>
   <div>
-    <NavBar />
     <form @submit.prevent="createEvent">
       <label>Select a category</label>
       <select v-model="event.category">
@@ -49,12 +48,10 @@
 </template>
 
 <script>
-import NavBar from '@/components/NavBar.vue'
 import Datepicker from 'vuejs-datepicker'
 export default {
   components: {
-    Datepicker,
-    NavBar
+    Datepicker
   },
   data() {
     const times = []
@@ -70,20 +67,20 @@ export default {
   methods: {
     createEvent() {
       this.$store
-        .dispatch('createEvent', this.event)
+        .dispatch('event/createEvent', this.event)
         .then(() => {
-          console.log('THIS EVENT :' + JSON.stringify(this.event))
-          console.log('THIS EVENT ID :' + this.event.id)
+          //console.log('THIS EVENT :' + JSON.stringify(this.event))
+          //console.log('THIS EVENT ID :' + this.event.id)
           this.$router.push({
             name: 'event-show',
             params: { id: this.event.id }
           })
           this.event = this.createFreshEvent()
         })
-        .catch(err => console.log(err))
+        .catch(() => {})
     },
     createFreshEvent() {
-      const user = this.$store.state.user
+      const user = this.$store.state.user.user
       const id = Math.floor(Math.random() * 10000000)
       return {
         id: id,

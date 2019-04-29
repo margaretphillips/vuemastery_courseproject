@@ -1,36 +1,42 @@
 <template>
   <div>
-    <NavBar />
-    <h1>Event List</h1>
+    <h1>Events for {{ user.user.name }}</h1>
     <template v-if="page != 1">
       <router-link
         :to="{ name: 'event-list', query: { page: page - 1 } }"
         rel="prev"
-        >PREV</router-link
-      >||
+        >prev</router-link
+      >
     </template>
-    <router-link
-      :to="{ name: 'event-list', query: { page: page + 1 } }"
-      rel="next"
-      >Next</router-link
-    >
-    <EventCard v-for="event in events" :event="event" :key="event.id" />
+    <template v-if="hasNextPage">
+      &nbsp;|
+      <router-link
+        :to="{ name: 'event-list', query: { page: page + 1 } }"
+        rel="next"
+        >next</router-link
+      >
+    </template>
+
+    <EventCard v-for="event in event.events" :event="event" :key="event.id" />
   </div>
 </template>
 
 <script>
-import NavBar from '@/components/NavBar.vue'
 import EventCard from '@/components/EventCard.vue'
 import { mapState } from 'vuex'
 
 export default {
   components: {
-    NavBar,
     EventCard
   },
+  data() {
+    return {
+      perPage: 3
+    }
+  },
   created() {
-    this.$store.dispatch('fetchEvents', {
-      perPage: 3,
+    this.$store.dispatch('event/fetchEvents', {
+      perPage: this.perPage,
       page: this.page
     })
   },
@@ -38,7 +44,10 @@ export default {
     page() {
       return parseInt(this.$route.query.page) || 1
     },
-    ...mapState(['events'])
+    hasNextPage() {
+      return this.event.eventsTotal > this.page * this.perPage
+    },
+    ...mapState(['event', 'user'])
   }
 }
 </script>
